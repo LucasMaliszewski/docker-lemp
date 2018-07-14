@@ -5,7 +5,7 @@ docker-lempev
 [![Docker Pulls](https://img.shields.io/docker/pulls/stenote/docker-lemp.svg)](https://hub.docker.com/r/stenote/docker-lemp/)
 
 
-We suppose this is a develop environment for phpers.
+Developer enviornment LEMP + Varnish + Elasticsearch (Works well for Magento 2.2[.2~.5] Cloud environment setup)
 
 Don't use it in product environment.
 
