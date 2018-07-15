@@ -4,13 +4,27 @@ ENV DEBIAN_FRONTEND noninteractive
 
 ## Install php nginx supervisor java8 varnish
 RUN apt-get update && \
-    apt-get install -y php7.1-fpm php7.1-mysql php7.1-gd php7.1-mcrypt php7.1-mysql php7.1-curl php7.1-cli \
+    apt-get install -y \
+    php7.1-fpm \
+    php7.1-mysql \
+    php7.1-gd \
+    php7.1-mcrypt \
+    php7.1-mysql \
+    php7.1-curl \
+    php7.1-cli \
+    php7.1-xml \
+    php7.1-mbstring \
+    php7.1-bcmath \
+    php7.1-intl \
+    php7.1-soap \
+    php7.1-zip \
     nginx \
     curl \
     supervisor \
     openjdk-8-jdk \
     wget \
-    varnish
+    varnish \
+    git
 
 # Composer
 RUN curl -sS https://getcomposer.org/installer -o composer-setup.php; \
